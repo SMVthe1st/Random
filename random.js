@@ -1,4 +1,4 @@
-const hash = (input, num) => {
+const random = (input, num) => {
     let d = "";
     for (let i = num; i > 0; i--) {
         let b = input[~~(Math.random()*(input.length))];
@@ -8,4 +8,4 @@ const hash = (input, num) => {
     return d.split("").join("");
 };
 
-console.log(hash("qwertyuiopasdfghjklzxcvbnm1234567890", 16));
+console.log(random("qwertyuiopasdfghjklzxcvbnm1234567890", 16));
