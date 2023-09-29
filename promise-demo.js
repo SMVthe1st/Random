@@ -6,8 +6,8 @@ const prom = new Promise ((resolve, reject) => {
 
 prom.
     then (() => {
-        console.log("same phrase");
+        console.log ("same phrase");
     }).
     catch (() => {
-        console.log("different phrase");
+        console.log ("different phrase");
     });
